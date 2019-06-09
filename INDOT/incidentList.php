@@ -1,5 +1,5 @@
 <?php
-	$db = pg_connect("host=localhost port=5432 dbname=test user=indot password=bagel");
+	$db = pg_connect("host=localhost port=5432 dbname=test user=indot password=***");
 	$result = pg_query($db,"SELECT * FROM traffic");
 	echo "<table class='fixed_header'>";
 	echo "<thead>";
